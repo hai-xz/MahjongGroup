@@ -13,7 +13,6 @@
             数字33-41 表示条牌
         </p>
     </section>
-
     <section>
         <h2>使用示例</h2>
         <ol>
@@ -76,7 +75,6 @@ const m = data.getAllListenCard()       //[...m.keys()] 为 [5,8]    也就是�
             </li>
         </ol>
     </section>
-
     <section>
         <h2>出牌提示</h2>
         <p>实现一个出牌提示的功能其实简单...</p>
@@ -86,7 +84,6 @@ if (suitable.getAllListenCard().size > 0) {
     console.log('提示出 21');
 }</code></pre>
     </section>
-
     <section>
         <h2>进一步扩展出牌提示</h2>
         <p>在上面的出牌提示中，只有打出某张牌能进行听牌才会有提示...</p>
